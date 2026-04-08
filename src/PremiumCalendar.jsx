@@ -4,7 +4,7 @@ import CalendarHeader from "./components/CalendarHeader";
 import CalendarGrid from "./components/CalendarGrid";
 import CalendarLeftPanel from "./components/CalendarLeftPanel";
 import { useCalendarLogic } from "./hooks/useCalendarLogic";
-import { sameD } from "./utils/calendarUtils";
+import { sameD, MONTHS } from "./utils/calendarUtils";
 import "./styles/PremiumCalendar.css";
 
 export default function PremiumCalendar() {

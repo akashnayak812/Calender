@@ -22,6 +22,7 @@ export default function DayCell({
 
   return (
     <div
+      draggable={false}
       className={`cal-cell ${isPop ? "cal-pop" : ""} ${!d.current ? "disabled" : ""}`}
       style={{
         position: "relative",
